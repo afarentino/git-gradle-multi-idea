@@ -1,12 +1,4 @@
-apply plugin: 'idea'
 
-idea.project.ipr {
-    withXml { provider ->
-        provider.node.component
-                .find { it.@name == 'VcsDirectoryMappings' }
-                .mapping.@vcs = 'Git'
-    }
-}
 
 // The Gradlew wrapper task
 task wrapper(type: Wrapper) {

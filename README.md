@@ -19,8 +19,13 @@ Project Layout
 This template is made up of the following nested directory structure.  Each IntelliJ project/module is encapsulated in it's own
 Git repository.
 
-*[git-gradle-multi-idea](https://github.com/afarentino/git-gradle-multi-idea) - Parent Git repository containing top-level .idea files and build scripts
-  *gradle/ -> directory of parent repository containing the Gradle wrapper files
-  *libs/ -> directory containing the [git-gradle-multi-libs](https://github.com/afarentino/git-gradle-multi-libs) IntelliJ module.
-  *web/ -> directory containing the [git-gradle-multi-web](https://github.com/afarentino/git-gradle-multi-web) IntelliJ module.
-  *core/ -> directory containing the [git-gradle-multi-core](https://github.com/afarentino/git-gradle-multi-core) IntelliJ module.
+* [git-gradle-multi-idea](https://github.com/afarentino/git-gradle-multi-idea)
+  * Parent Git repository containing top-level .idea files and build scripts
+  * gradle/
+    * directory of parent repository containing the Gradle wrapper files
+  * libs/
+    * directory containing the [git-gradle-multi-libs](https://github.com/afarentino/git-gradle-multi-libs) IntelliJ module.
+  * web/
+    * directory containing the [git-gradle-multi-web](https://github.com/afarentino/git-gradle-multi-web) IntelliJ module.
+  * core/
+    * directory containing the [git-gradle-multi-core](https://github.com/afarentino/git-gradle-multi-core) IntelliJ module.

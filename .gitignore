@@ -1,6 +1,8 @@
 # Ignore .gradle sub-directory
 .gradle/
 
+# Ignore the IntelliJ workspace.xml file it is always changing
+.idea/workspace.xml
 
 # Ignore each IntelliJ project module as each will be stored in
 # it's own Git repository 

@@ -1,0 +1,7 @@
+apply plugin: 'idea'
+
+
+// The Gradlew wrapper task
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.12'
+}

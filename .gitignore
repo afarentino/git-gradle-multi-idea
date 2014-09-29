@@ -1,2 +1,10 @@
 # Ignore .gradle sub-directory
 .gradle/
+
+
+# Ignore each IntelliJ project module as each will be stored in
+# it's own Git repository 
+libs/
+core/
+web/
+
